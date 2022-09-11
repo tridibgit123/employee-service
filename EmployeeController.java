@@ -37,6 +37,9 @@ public class EmployeeController {
 
 	@Autowired
 	EmployeeService employeeService;
+	
+    @Autowired
+	EmployeeService employeeService_1;
 
 	@Autowired
 	CompetencyService competencyService;
