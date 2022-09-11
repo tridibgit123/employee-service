@@ -40,6 +40,9 @@ public class EmployeeController {
 	
     @Autowired
 	EmployeeService employeeService_1;
+	
+	@Autowired
+	EmployeeService employeeService_feature;
 
 	@Autowired
 	CompetencyService competencyService;
